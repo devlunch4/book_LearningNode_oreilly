@@ -3,8 +3,8 @@ var http = require('http');
 
 // http server create - http 서버 생성
 http.createServer(function (req, res) {
-    // content Header - 컨텐츠 헤ej
-    res.writeHead(200, { 'content-type': 'text/pain' });
+    // content Header - 컨텐츠 헤더
+    res.writeHead(200, { 'content-type': 'text/plain' });
     // Write a message and send a signal that communication is complete - 메시지를 쓰고 통신이 완료되었다는 신호를 보냄
     res.end("Hello, World!\n");
 }).listen(8124);
