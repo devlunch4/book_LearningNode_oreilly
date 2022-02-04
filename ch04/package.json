@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "connect": "^3.7.0",
+    "jquery": "^3.6.0",
+    "optimist": "^0.6.1",
+    "underscore": "^1.13.2"
+  }
+}
