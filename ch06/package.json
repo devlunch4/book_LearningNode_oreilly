@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "mime": "^3.0.0"
+  }
+}
